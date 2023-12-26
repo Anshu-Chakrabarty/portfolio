@@ -2,7 +2,7 @@ import"./AboutContentStyles.css"
 
 import React from 'react'
 import {Link} from "react-router-dom"
-import Sphere from "../Sphere"
+import Sphere from "./Sphere"
 
 
 

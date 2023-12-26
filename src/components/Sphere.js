@@ -13,7 +13,7 @@ tooltipDelay: 0,
 wheelZoom: true
 };
 const iconSlugs = [
-"dart","java","react","flutter","android","html5","nodedotjs","express","nextdotjs","firebase","vercel","canva","testinglibrary","docker","git","github","gitlab","visualstudiocode","androidstudio","figma"
+"dart","java","react","flutter","android","html5","nodedotjs","express","nextdotjs","firebase","vercel","canva","testinglibrary","docker","git","github","gitlab","visualstudiocode","androidstudio","figma", "c", "cplusplus","php","mysql","javascript",
 ];
 const iconTags = iconSlugs.map((slug) => ({
 id: slug,

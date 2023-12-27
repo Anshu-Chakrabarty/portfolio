@@ -2,6 +2,7 @@ import React from "react";
 import allIcons from "simple-icons";
 import { v4 } from "uuid";
 import { IconCloud } from "react-icon-cloud";
+import "./SphereStyles.css"
 
 const Sphere = () => {
 const tagCanvasOptions = {
@@ -10,7 +11,9 @@ initial: [0.1, -0.1],
 reverse: true,
 tooltip: "native", // null | 'div'
 tooltipDelay: 0,
-wheelZoom: true
+wheelZoom: false,
+noMouse:true,
+maxSpeed: 0.1
 };
 const iconSlugs = [
 "dart","java","react","flutter","android","html5","nodedotjs","express","nextdotjs","firebase","vercel","canva","testinglibrary","docker","git","github","gitlab","visualstudiocode","androidstudio","figma", "c", "cplusplus","php","mysql","javascript",

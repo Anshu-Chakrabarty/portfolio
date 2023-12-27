@@ -30,7 +30,13 @@ const Navbar = () => {
                 <Link to ="/project">Projects</Link>
                 </li>
                 <li>
+                <Link to ="/SkillView">Skills</Link>
+            </li>
+                <li>
                 <Link to ="/about">About</Link>
+                </li>
+                <li>
+                <Link to ="https://drive.google.com/file/d/1sKT_5BD2Kannw7myVfEBavxfJ-dp07ZC/view?usp=sharing">Resume</Link>
                 </li>
                 <li>
                 <Link to ="/contact">Contacts</Link>

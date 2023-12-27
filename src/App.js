@@ -5,6 +5,7 @@ import About from "./routes/About"
 import Contact from "./routes/Contact"
 import Project from "./routes/Project"
 import {Route, Routes} from "react-router-dom";
+import SkillView from "./routes/SkillView";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/project" element={<Project />}/>
+      <Route path="/SkillView" element={<SkillView />}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/about" element={<About />}/>
     

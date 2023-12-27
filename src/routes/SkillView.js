@@ -8,11 +8,11 @@ const SkillView = () => {
   return (
     <div>
         <Navbar/>
-      <HeroImg2 heading="PROJECTS" text="Skills"/>
+      <HeroImg2 heading="Skills" text="Still Working Hard To Learn More. Sky is the Limit."/>
       <Skill/>
       <Footer/>
     </div>
   )
 }
 
-export default SkillView
+export default SkillView;
